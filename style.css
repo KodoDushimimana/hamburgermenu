@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.menu-icon .line {
+    background-color: white;
+    height: 4px;
+    margin: 6px 0;
+}
+
+.menu-list {
+    display: none;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu-list li {
+    padding: 10px 0;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #444;
+    display: block;
+}
+
+.menu-list li a:hover {
+    background-color: #555;
+}
